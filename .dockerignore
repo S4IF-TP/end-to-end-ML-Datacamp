@@ -1,0 +1,30 @@
+# Bytecode and caches
+__pycache__/
+*.pyc
+*.pyo
+
+# Venvs
+.venv/
+venv/
+
+# VCS
+.git/
+.gitignore
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks/
+
+# Local data and artifacts
+mlruns/
+data/
+*.parquet
+*.csv
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Tests (optional)
+tests/
